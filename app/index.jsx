@@ -24,7 +24,7 @@ export default function App() {
             setIsEditing(false);
             setEditingId(null)
         } else {
-            // Adding New Task at the top.
+            // Adding New Task at the top......1234567890
             // setTaskList(prev => [...prev, { id: Date.now().toString(), title: task, Done: false }]);
             const newTask={id:Date.now().toString(),title:task,Done:false}
             const upadteList=[newTask,...taskList];
