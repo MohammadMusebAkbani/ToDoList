@@ -16,7 +16,7 @@ export default function App() {
 
     const addItem = () => {
         if (task.trim() === "") return;
-        // Editing new task
+        // Editing new task......
         if (isEditing) {
             setTaskList(perv => perv.map(
                 item => (item.id === editingId ? { ...item, title: task } : item)
